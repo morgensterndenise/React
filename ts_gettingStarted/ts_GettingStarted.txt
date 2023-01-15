@@ -1,0 +1,22 @@
+1. Installing typescript 
+
+npm install -g typescript
+
+2. Gledane na versiata na typescript
+tsc -v
+
+3. Compile your ts code into js ->tuj she ni suzdade (compilira) ts file-a v js file
+tsc nameOfTsDoc.ts 
+
+4. Create typescript config file ->shte ni suzdade tsconfig.json
+tsc --init
+
+//v toia file toy uncommentna  
+- "noUnusedLocals": true,  //tva ti kazva suzdade li var i posle nikoga ne ia polzva   
+- "outDir": "./js" (tuj e dir det js files shte gi generira
+- "module": "es2022",  ->this we change to es2022
+5. vednuj kat imame config file mojen veche samo da si runnvame tsc (vmesto tsc + imeto na filea)
+tsc
+
+
+  
